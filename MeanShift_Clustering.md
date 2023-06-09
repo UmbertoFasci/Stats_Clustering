@@ -1,12 +1,12 @@
 
 # Table of Contents
 
-1.  [Mean-Shift Clustering Example](#org9bb2859)
-    1.  [Imports](#org35d9363)
-    2.  [Generate sample data](#org075f68e)
-    3.  [Compute clustering with MeanShift](#orgd8a0647)
-    4.  [Plot result](#orge1c6a6c)
-2.  [MeanShift Algo Explainer](#org3d7144c)
+*  [Mean-Shift Clustering Example](#org9bb2859)
+    -  [Imports](#org35d9363)
+    -  [Generate sample data](#org075f68e)
+    -  [Compute clustering with MeanShift](#orgd8a0647)
+    -  [Plot result](#orge1c6a6c)
+*  [MeanShift Algo Explainer](#org3d7144c)
 
 
 
