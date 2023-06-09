@@ -67,3 +67,7 @@ plt.show()
 [[file:./.ob-jupyter/062c0a9af8c052819601b27c0a7b9b8b923da08b.png]]
 
 * MeanShift Algo Explainer
+
+Mean shift clustering is a centroid-based algorithm which aims to discover "blobs" in a smooth density of samples. This works by updating candidates for centroids to be the mean of the points within a given region. Further, seeding is performed by utilizing a binning technique for scalability.
+
+In more detail, The position of the centroid candidates is iteratively adjusted using a techniqiue called hill climbing, which finds local maxima of the estimated probability density.
