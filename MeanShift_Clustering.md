@@ -19,23 +19,26 @@
 
 ## Imports
 
+    ```python
     import numpy as np
     from sklearn.cluster import MeanShift, estimate_bandwidth
     from sklearn.datasets import make_blobs
-
+    ```
 
 <a id="org075f68e"></a>
 
 ## Generate sample data
 
+    ```python
     centers = [[1, 1], [-1, -1], [1, -1]]
     X, _ = make_blobs(n_samples=10000, centers=centers, cluster_std=0.6)
-
+    ```
 
 <a id="orgd8a0647"></a>
 
 ## Compute clustering with MeanShift
 
+    ```python
     bandwidth = estimate_bandwidth(X, quantile=0.2, n_samples=500)
     
     ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
@@ -47,12 +50,13 @@
     n_clusters_ = len(labels_unique)
     
     print("number of estimated clusters: %d" % n_clusters_)
-
+    ```
 
 <a id="orge1c6a6c"></a>
 
 ## Plot result
 
+    ```python
     import matplotlib.pyplot as plt
     
     plt.figure(1)
@@ -75,7 +79,7 @@
         )
     plt.title("Estimated number of clusters: %d" % n_clusters_)
     plt.show()
-
+    ```
 
 <a id="org3d7144c"></a>
 
