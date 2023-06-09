@@ -1,4 +1,4 @@
-#+title: Mean-Shift Clustering
+#+title: MeanShift Clustering
 
 * Mean-Shift Clustering Example
 
